@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.api</groupId>
+  <artifactId>SDET36B1-API</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+  <!-- This tool is needed for serialization and de-serialization -->
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <!-- This is a unit testing tool -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+    <scope>compile</scope>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+  <!-- This dependency is needed to create JSON object -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<!-- This tool is required to test restfull API's -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+    <scope>compile</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<!-- This tool is needed to create JSON file -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.11.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!-- This tool helps to establish with MYSQL database -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.28</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- This tool used for perform UI Automation -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
+<!-- This tool is used for response time validation -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-all</artifactId>
+    <version>1.3</version>
+    <scope>test</scope>
+</dependency>
+
+
+  
+  </dependencies>
+</project>
